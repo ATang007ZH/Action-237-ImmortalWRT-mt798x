@@ -20,7 +20,7 @@ env:
   REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x
   REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: 360t7.config
+  CONFIG_FILE: 360t7+pw+xray+socksr-libev.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2-6-1.sh
   UPLOAD_BIN_DIR: false
@@ -83,6 +83,7 @@ jobs:
         rm -rf feeds/packages/net/chinadns-ng/
         rm -rf feeds/packages/net/sing-box/
         rm -rf feeds/packages/net/hysteria/
+        rm -rf feeds/packages/net/shadowsocksr-libev/
         git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
         git clone https://github.com/xiaorouji/openwrt-passwall-packages package/luci-app-passwall-packages
          

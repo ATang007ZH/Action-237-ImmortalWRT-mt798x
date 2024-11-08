@@ -10,5 +10,9 @@ JCG Q30 PRO极简AP固件。
 
 使用p3terx云编译模板 English | 中文
 
+
+
+----------------------------------------------------------------
 注意，新建的Actions ，要修改权限（原来只读，改成读写权限）。
+
 Settings，Actions，General，右侧栏拉到最下面，	Workflow permissions，勾选 Read and write permissions
